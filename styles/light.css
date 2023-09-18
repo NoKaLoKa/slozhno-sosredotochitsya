@@ -9,4 +9,32 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff8dcb;
+  --accent__text-color: #353430;
+  --title__accent-color: #FFC2E6;
+  --title__text-color: #353430;
+  --decoration-color: #353430;
+  --header__menu-color: #353430;
+  --header__menu-hover-color: rgba(50, 49, 45, 0.40);
+  --header-background: url(../images/cover-image-light.png);
+  --section__text-color: #353430;
+  --section-background: #FFF1F7;
+  --footer-background: #FFF1F7;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      /* Дублируем переменные светлой темы */
+      --accent-color: #ff8dcb;
+      --accent__text-color: #353430;
+      --title__accent-color: #FFC2E6;
+      --title__text-color: #353430;
+      --decoration-color: #353430;
+      --header__menu-color: #353430;
+      --header__menu-hover-color: rgba(50, 49, 45, 0.40);
+      --header-background: url(../images/cover-image-light.png);
+      --section__text-color: #353430;
+      --section-background: #FFF1F7;
+      --footer-background: #FFF1F7;
+    }
 }
