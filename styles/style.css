@@ -89,6 +89,19 @@
   border: 1px solid var(--header__menu-hover-color);
 }
 
+.header__theme-menu-item:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-item:focus-visible {
+  outline: none;
+  border-bottom: solid 1px var(--header__menu-color);
+}
+
 .header__theme-menu-button {
   display: inline-flex;
   flex-shrink: 0;
@@ -192,6 +205,14 @@
 .content__section-link:hover {
   text-decoration: underline;
   text-shadow: none;
+}
+
+.content__section-link:focus {
+  outline: none;
+}
+
+.content__section-link:focus-visible {
+  outline: 1px solid var(--section__text-color)
 }
 
 .content__section-pictures__list {
